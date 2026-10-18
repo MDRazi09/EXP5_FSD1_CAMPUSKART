@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CampusKart - College Shopping</title>
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-indigo-50 text-slate-900">
+
+  
+  <nav class="flex items-center justify-between bg-green-950 px-6 py-4 text-white">
+
+    <h1 class="text-2xl font-bold">
+      Campus<span class="text-green-300">Kart</span>
+    </h1>
+
+    <div class="flex items-center gap-4 sm:gap-6">
+      <a href="#products"
+         class="font-medium transition hover:text-green-300">
+        Shop
+      </a>
+
+      <a href="#products"
+         class="font-medium transition hover:text-green-300">
+        Cart (0)
+      </a>
+    </div>
+
+  </nav>
+
+
+  
+  
+  <section class="flex flex-col items-center justify-between gap-8
+                  bg-green-100 p-8 text-center
+                  md:flex-row md:text-left">
+
+    <div class="flex-1">
+
+      <h2 class="text-4xl font-bold text-green-950">
+        College Sale
+      </h2>
+
+      <p class="mt-4 text-lg text-slate-700">
+        Up to 50% off on bags, books and more
+      </p>
+
+      <a href="#products"
+         class="mt-6 inline-block rounded-lg bg-green-600
+                px-6 py-3 font-semibold text-white
+                transition hover:bg-green-900">
+        Shop Now
+      </a>
+
+    </div>
+
+    <img
+      src="https://placehold.co/300x300/e0e7ff/312e81?text=50%25+OFF"
+      alt="College sale - 50 percent off"
+      class="w-full max-w-xs rounded-xl shadow-md"
+    >
+
+  </section>
+
+
+  
+  
+  <section class="grid grid-cols-3 gap-4 px-6 py-8 text-center">
+
+    <div class="rounded-lg bg-white p-4 shadow-sm">
+      <p class="text-2xl font-bold text-green-600">Free</p>
+      <p class="text-slate-500">Delivery</p>
+    </div>
+
+    <div class="rounded-lg bg-white p-4 shadow-sm">
+      <p class="text-2xl font-bold text-green-600">7-Day</p>
+      <p class="text-slate-500">Returns</p>
+    </div>
+
+    <div class="rounded-lg bg-white p-4 shadow-sm">
+      <p class="text-2xl font-bold text-green-600">COD</p>
+      <p class="text-slate-500">Available</p>
+    </div>
+
+  </section>
+
+
+ 
+  <main>
+    <section id="products"
+             class="grid grid-cols-1 gap-6 p-6
+                    sm:grid-cols-2 lg:grid-cols-4">
+
+     
+      <div class="overflow-hidden rounded-xl bg-white p-4 shadow-md
+                  transition hover:-translate-y-1 hover:shadow-lg">
+
+        <img
+          src="backpacks.jpg"
+          alt="Backpack"
+          class="h-48 w-full rounded-lg object-cover"
+        >
+
+        <h3 class="mt-4 text-lg font-bold text-green-950">
+          Backpack
+        </h3>
+
+        <p class="mt-2 font-semibold text-green-700">
+          Rs. 799
+          <span class="ml-2 text-slate-400 line-through">1299</span>
+        </p>
+
+        <button type="button"
+                class="mt-4 w-full rounded-lg bg-green-600
+                       px-4 py-3 font-semibold text-white
+                       transition hover:bg-green-500">
+          Add to Cart
+        </button>
+
+      </div>
+
+
+      
+      <div class="overflow-hidden rounded-xl bg-white p-4 shadow-md
+                  transition hover:-translate-y-1 hover:shadow-lg">
+
+        <img
+          src="notebooks.jpg"
+          alt="Notebook set"
+          class="h-48 w-full rounded-lg object-cover"
+        >
+
+        <h3 class="mt-4 text-lg font-bold text-green-950">
+          Notebook Set
+        </h3>
+
+        <p class="mt-2 font-semibold text-green-700">
+          Rs. 199
+          <span class="ml-2 text-slate-400 line-through">299</span>
+        </p>
+
+        <button type="button"
+                class="mt-4 w-full rounded-lg bg-green-600
+                       px-4 py-3 font-semibold text-white
+                       transition hover:bg-green-500">
+          Add to Cart
+        </button>
+
+      </div>
+
+
+     
+      <div class="overflow-hidden rounded-xl bg-white p-4 shadow-md
+                  transition hover:-translate-y-1 hover:shadow-lg">
+
+        <img
+          src="waterb.jpg"
+          alt="Water bottle"
+          class="h-48 w-full rounded-lg object-cover"
+        >
+
+        <h3 class="mt-4 text-lg font-bold text-green-950">
+          Water Bottle
+        </h3>
+
+        <p class="mt-2 font-semibold text-green-700">
+          Rs. 349
+          <span class="ml-2 text-slate-400 line-through">499</span>
+        </p>
+
+        <button type="button"
+                class="mt-4 w-full rounded-lg bg-green-600
+                       px-4 py-3 font-semibold text-white
+                       transition hover:bg-green-500">
+          Add to Cart
+        </button>
+
+      </div>
+
+
+     
+      <div class="overflow-hidden rounded-xl bg-white p-4 shadow-md
+                  transition hover:-translate-y-1 hover:shadow-lg">
+
+        <img
+          src="ear.jpg"
+          alt="Earphones"
+          class="h-48 w-full rounded-lg object-cover"
+        >
+
+        <h3 class="mt-4 text-lg font-bold text-green-950">
+          Earphones
+        </h3>
+
+        <p class="mt-2 font-semibold text-green-700">
+          Rs. 599
+          <span class="ml-2 text-slate-400 line-through">999</span>
+        </p>
+
+        <button type="button"
+                class="mt-4 w-full rounded-lg bg-green-600
+                       px-4 py-3 font-semibold text-white
+                       transition hover:bg-green-500">
+          Add to Cart
+        </button>
+
+      </div>
+
+
+      
+      <div class="overflow-hidden rounded-xl bg-white p-4 shadow-md
+                  transition hover:-translate-y-1 hover:shadow-lg">
+
+        <img
+          src="shoes.jpg"
+          alt="College shoes"
+          class="h-48 w-full rounded-lg object-cover"
+        >
+
+        <h3 class="mt-4 text-lg font-bold text-green-950">
+          College Shoes
+        </h3>
+
+        <p class="mt-2 font-semibold text-green-700">
+          Rs. 999
+          <span class="ml-2 text-slate-400 line-through">1499</span>
+        </p>
+
+        <button type="button"
+                class="mt-4 w-full rounded-lg bg-green-600
+                       px-4 py-3 font-semibold text-white
+                       transition hover:bg-green-500">
+          Add to Cart
+        </button>
+
+      </div>
+
+
+      
+      <div class="overflow-hidden rounded-xl bg-white p-4 shadow-md
+                  transition hover:-translate-y-1 hover:shadow-lg">
+
+        <img
+          src="wrist.jpg"
+          alt="Wrist watch"
+          class="h-48 w-full rounded-lg object-cover"
+        >
+
+        <h3 class="mt-4 text-lg font-bold text-green-950">
+          Wrist Watch
+        </h3>
+
+        <p class="mt-2 font-semibold text-green-700">
+          Rs. 699
+          <span class="ml-2 text-slate-400 line-through">1099</span>
+        </p>
+
+        <button type="button"
+                class="mt-4 w-full rounded-lg bg-green-600
+                       px-4 py-3 font-semibold text-white
+                       transition hover:bg-green-500">
+          Add to Cart
+        </button>
+
+      </div>
+
+
+      
+      <div class="overflow-hidden rounded-xl bg-white p-4 shadow-md
+                  transition hover:-translate-y-1 hover:shadow-lg">
+
+        <img
+          src="study.jpg"
+          alt="Study lamp"
+          class="h-48 w-full rounded-lg object-cover"
+        >
+
+        <h3 class="mt-4 text-lg font-bold text-green-950">
+          Study Lamp
+        </h3>
+
+        <p class="mt-2 font-semibold text-green-700">
+          Rs. 449
+          <span class="ml-2 text-slate-400 line-through">699</span>
+        </p>
+
+        <button type="button"
+                class="mt-4 w-full rounded-lg bg-green-600
+                       px-4 py-3 font-semibold text-white
+                       transition hover:bg-green-500">
+          Add to Cart
+        </button>
+
+      </div>
+
+
+      
+      <div class="overflow-hidden rounded-xl bg-white p-4 shadow-md
+                  transition hover:-translate-y-1 hover:shadow-lg">
+
+        <img
+          src="pencil.jpg"
+          alt="Pencil kit"
+          class="h-48 w-full rounded-lg object-cover"
+        >
+
+        <h3 class="mt-4 text-lg font-bold text-green-950">
+          Pencil Kit
+        </h3>
+
+        <p class="mt-2 font-semibold text-green-700">
+          Rs. 149
+          <span class="ml-2 text-slate-400 line-through">249</span>
+        </p>
+
+        <button type="button"
+                class="mt-4 w-full rounded-lg bg-green-600
+                       px-4 py-3 font-semibold text-white
+                       transition hover:bg-green-500">
+          Add to Cart
+        </button>
+
+      </div>
+
+    </section>
+  </main>
+
+
+ 
+  <footer class="bg-green-950 py-6 text-center text-green-200">
+
+    <p>&copy; 2026 CampusKart</p>
+
+    <div class="mt-2 flex justify-center gap-6">
+      <a href="#"
+         class="transition hover:text-green-300">
+        About
+      </a>
+
+      <a href="#"
+         class="transition hover:text-green-300">
+        Contact
+      </a>
+    </div>
+
+  </footer>
+
+</body>
+</html>
